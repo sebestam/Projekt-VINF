@@ -235,6 +235,6 @@ docker run --rm music-search
 
 ---
 
-**Autor:** [Marek Šebesta]  
+**Autor:** Marek Šebesta
 **Dátum:** December 2025  
-**Repozitár:** [link na GitHub]
+**Repozitár:** https://github.com/sebestam/Projekt-VINF
