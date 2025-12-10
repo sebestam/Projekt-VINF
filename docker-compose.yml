@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  # All-in-one service - index and search
+  music-search:
+    build:
+      context: .
+      dockerfile: Dockerfile.extended
+    volumes:
+      - ../music_enriched.csv:/data/music_enriched.csv:ro
+      - ./index_data:/data/music_index
+    stdin_open: true
+    tty: true
+
+# Usage:
+# docker-compose run --rm music-search
+# Menu will let you: 1) Index data, 2) Search, 3) Exit

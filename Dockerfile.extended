@@ -1,0 +1,21 @@
+# Extended PyLucene Dockerfile with indexing/search scripts
+FROM coady/pylucene:latest
+
+# Install pandas for CSV processing
+RUN pip install pandas scikit-learn
+
+# Create data directory
+RUN mkdir -p /data
+
+# Copy all scripts
+COPY indexer.py /app/indexer.py
+COPY searcher.py /app/searcher.py
+COPY search_cli.py /app/search_cli.py
+COPY main.py /app/main.py
+COPY test_metrics.py /app/test_metrics.py
+COPY queries.json /data/queries.json
+
+WORKDIR /app
+
+# Default: run main menu
+CMD ["python", "main.py"]

@@ -1,0 +1,172 @@
+{
+  "queries": [
+    {
+      "query": "mozart",
+      "expected_results": [
+        "12 Variations on \"Twinkle, Twinkle Little Star\" (Ah, vous dirai-je, maman) in C Major, K. 265",
+        "Turkish March (Rondo Alla Turca) in A Minor, K. 331",
+        "Sonata 16 in C Major, K. 545",
+        "Fantasia in D Minor, K. 397",
+        "Minuet in F Major, K. 2 from Pieces from Nannerl's Music Book",
+        "Allegro in F Major, K. 1 c from Pieces from Nannerl's Music Book",
+        "Minuet in C Major, K. 6 from Pieces from Nannerl's Music Book",
+        "Sonata 1 in C Major, K. 279",
+        "Sonata 11 in A Major, K. 331",
+        "Piano Concerto 21 in C Major, K. 467"
+      ]
+    },
+    {
+      "query": "chopin waltz",
+      "expected_results": [
+        "Waltz 19 (Sostenuto) in A Minor, B. 150",
+        "Waltz 3 in A Minor, Op. 34 No. 2",
+        "Waltz 14 in E Minor, B. 56",
+        "Waltz 10 in B Minor, Op. 69 No. 2",
+        "Waltz 7 in C-sharp Minor, Op. 64 No. 2",
+        "Waltz 5 in A-flat Major, Op. 42",
+        "Waltz 12 in F Minor, Op. 70 No. 2",
+        "Waltz 8 in A-flat Major, Op. 64 No. 3",
+        "Waltz 16 in A-flat Major, B. 21",
+        "Waltz 15 in E Major, B. 44"
+      ]
+    },
+    {
+      "query": "difficulty:hard",
+      "expected_results": [
+        "Sonata 14 (Moonlight) in C-sharp Minor, Op. 27 No. 2",
+        "Fantaisie-Impromptu in C-sharp Minor, Op. 66",
+        "Prelude in C-sharp Minor, Op. 3 No. 2 from Morceaux de Fantaisie",
+        "Etude in C Minor, Op. 10 No. 12",
+        "Etude in C Major, Op. 10 No. 1",
+        "Bach: Chaconne for Violin - BWV 1004 in D Minor",
+        "Etude in C-sharp Minor, Op. 10 No. 4",
+        "Nocturne 13 in C Minor, Op. 48 No. 1 ",
+        "Nocturne 19 in E Minor, Op. 72 No. 1",
+        "Etude in A Minor, Op. 25 No. 11"
+      ]
+    },
+    {
+      "query": "bach difficulty:easy",
+      "expected_results": [
+        "Minuet (by C. Petzold) in G Major, BWV Anh. 114 from Notebook for Anna Magdalena Bach",
+        "Small Prelude in C Major",
+        "Minuet (by C. Petzold) in G Minor, BWV Anh. 115 from Notebook for Anna Magdalena Bach",
+        "Bourrée in E Minor",
+        "Minuet in G Major, BWV Anh. 116 from Notebook for Anna Magdalena Bach",
+        "March (by C. P. E. Bach) in D Major, BWV Anh. 122 from Notebook for Anna Magdalena Bach",
+        "Aria in F Major",
+        "Aria (by J. C. Bach) in F Major, BWV Anh. 131 from Notebook for Anna Magdalena Bach",
+        "Allegro in G Major",
+        "Musette in D Major, BWV Anh. 126 from Notebook for Anna Magdalena Bach"
+      ]
+    },
+    {
+      "query": "short",
+      "expected_results": [
+        "Clair de Lune No. 3 from Suite Bergamasque",
+        "Für Elise in A Minor",
+        "Short Appoggiaturas in A Major No. 9 from 60 Pieces for Aspiring Players, Book 2",
+        "A Short Study in G Major, Op. 68 No. 14",
+        "Short Piece in C Major, Op. 68 No. 5",
+        "Prelude in C-sharp Minor, Op. 3 No. 2 from Morceaux de Fantaisie",
+        "Prelude (Raindrop) in D-flat Major, Op. 28 No. 15",
+        "Sonata 16 in C Major, K. 545",
+        "Sonatina in C Major, Op. 36 No. 1",
+        "Sonatina in C Major, Op. 55 No. 1"
+      ]
+    },
+    {
+      "query": "classical difficulty:easy",
+      "expected_results": [
+        "Sonatina in C Major, Op. 36 No. 1",
+        "Giga in C Major, Op. 12 No. 2",
+        "Sonatina 6 in G Major, Anh. 5/1",
+        "Andante - from Sonatina No. 3 in D Minor",
+        "Russian Folk Song in G Major, Op. 107 No. 3",
+        "Minuet in G Major",
+        "Minuet in F Major, K. 2 from Pieces from Nannerl's Music Book",
+        "Allegro in F Major, K. 1 c from Pieces from Nannerl's Music Book",
+        "Minuet in C Major, K. 6 from Pieces from Nannerl's Music Book",
+        "Melodious Exercise in E Minor, Op. 149 No. 28"
+      ]
+    },
+    {
+      "query": "etude czerny op. 299",
+      "expected_results": [
+        "Study in F Major, Op. 299 No. 10 from School of Velocity",
+        "Study in E Major, Op. 299 No. 29 from School of Velocity",
+        "Study in F Major, Op. 299 No. 40 from School of Velocity",
+        "Study in C Major, Op. 299 No. 11 from School of Velocity",
+        "Study in C Major, Op. 299 No. 6 from School of Velocity",
+        "Study in C Major, Op. 299 No. 1 from School of Velocity",
+        "Study in D-flat Major, Op. 299 No. 39 from School of Velocity",
+        "Study in B-flat Major, Op. 299 No. 31 from School of Velocity",
+        "Study in A Minor, Op. 299 No. 34 from School of Velocity",
+        "Study in C Major, Op. 299 No. 30 from School of Velocity"
+      ]
+    },
+    {
+      "query": "etude czerny op. 299",
+      "expected_results": [
+        "Study in F Major, Op. 299 No. 10 from School of Velocity",
+        "Study in E Major, Op. 299 No. 29 from School of Velocity",
+        "Study in F Major, Op. 299 No. 40 from School of Velocity",
+        "Study in C Major, Op. 299 No. 11 from School of Velocity",
+        "Study in C Major, Op. 299 No. 6 from School of Velocity",
+        "Study in C Major, Op. 299 No. 1 from School of Velocity",
+        "Study in D-flat Major, Op. 299 No. 39 from School of Velocity",
+        "Study in B-flat Major, Op. 299 No. 31 from School of Velocity",
+        "Study in A Minor, Op. 299 No. 34 from School of Velocity",
+        "Study in C Major, Op. 299 No. 30 from School of Velocity"
+      ]
+    },
+    {
+      "query": "sonata year:1800-1810",
+      "expected_results": [
+        "Sonata 14 (Moonlight) in C-sharp Minor, Op. 27 No. 2",
+        "Sonata 17 (The Tempest) in D Minor, Op. 31 No. 2",
+        "Sonata 23 (Appassionata) in F Minor, Op. 57",
+        "Sonata in D Minor, Op. 40 No. 3",
+        "Sonata in B Minor, Op. 40 No. 2",
+        "Sonata 25 in G Major, Op. 79",
+        "Sonata 15 in D Major, Op. 28",
+        "Sonata 18 in E-flat Major, Op. 31 No. 3",
+        "Sonata 26 (Les adieux) in E-flat Major, Op. 81",
+        "Sonata 22 in F Major, Op. 54"
+      ]
+    },
+    {
+      "query": "sonata e-flat major",
+      "expected_results": [
+        "Sonata in E-flat Major, L. 62 Hob. XVI: 52",
+        "Sonata in E-flat Major, L. 43 Hob. XVI: 28",
+        "Sonata in E-flat Major, K. 507",
+        "Sonata in E-flat Major, K. 15 kk from The London Sketchbook",
+        "Sonata in E-flat Major, K. 475",
+        "Sonata in E-flat Major, Hob. XVI: 16",
+        "Sonata in E-flat Major, L. 59 Hob. XVI: 49",
+        "Sonata in E-flat Major, L. 29 Hob. XVI: 45",
+        "Sonata in E-flat Major, L. 51 Hob. XVI: 38",
+        "Sonata in E-flat Major, L. 40 Hob. XVI: 25"
+      ]
+    },
+    {
+      "query": "raindrop",
+      "expected_results": [
+        "Prelude (Raindrop) in D-flat Major, Op. 28 No. 15"
+      ]
+    },
+    {
+      "query": "funeral march",
+      "expected_results": [
+        "Funeral March in C Minor, Op. 40 No. 3",
+        "Funeral March in A-flat Minor, Op. 21 No. 4",
+        "Nordraak's Funeral March in A Minor",
+        "Funeral Prelude and Funeral March S . 206",
+        "Andante maestoso (Funeral March) in E Minor, Op. 62 No. 3 from Songs Without Words",
+        "Grand Funeral March - for four hands in C Minor, Op. 55 D. 859",
+        "Prelude in C Minor, Op. 28 No. 20"
+      ]
+    }
+  ]
+}
